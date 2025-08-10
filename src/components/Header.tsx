@@ -109,19 +109,6 @@ const Header = () => {
             ))}
           </nav>
           
-          {/* Desktop CTA Button */}
-          <div className="hidden md:block">
-            <a href="#contact">
-              <EnhancedButton 
-                variant="primary" 
-                size="md"
-                aria-label="Book an appointment"
-              >
-                Book Appointment
-              </EnhancedButton>
-            </a>
-          </div>
-          
           {/* Mobile Menu Button */}
           <button 
             ref={menuButtonRef}
@@ -160,18 +147,6 @@ const Header = () => {
                   {item.label}
                 </a>
               ))}
-              <div className="pt-4">
-                <a href="#contact">
-                  <EnhancedButton 
-                    variant="primary" 
-                    size="md" 
-                    fullWidth
-                    aria-label="Book an appointment"
-                  >
-                    Book Appointment
-                  </EnhancedButton>
-                </a>
-              </div>
             </div>
           </div>
         )}

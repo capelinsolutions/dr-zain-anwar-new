@@ -26,12 +26,7 @@ const CTA = () => {
           </AnimatedElement>
           
           <AnimatedElement animation="slide-up" delay={300}>
-            <div className="flex flex-col sm:flex-row gap-4 md:gap-6 justify-center">
-              <a href="#contact-form">
-                <EnhancedButton variant="primary" size="xl" className="min-w-[280px] animate-bounce-subtle">
-                  Request Appointment
-                </EnhancedButton>
-              </a>
+            <div className="flex justify-center">
               <a href="tel:+12818901784">
                 <EnhancedButton variant="accent" size="xl" className="min-w-[200px]">
                   Call Us Now
