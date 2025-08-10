@@ -7,14 +7,14 @@ import LocationCard from './LocationCard';
 const Locations = () => {
   const locations = [
     {
-      image: "https://cdn.builder.io/api/v1/image/assets/TEMP/47d81b60604dbad2231092d2f050cc6dff40aae1?width=1536",
+      image: "/lovable-uploads/f5e53adb-4286-4c01-af59-42471c85446e.png",
       address: "13333 Dotson Rd, Suite 200, Houston, TX",
       hours: "Mon–Fri: 9am–5pm",
       phone: "(281) 890-1784",
       alt: "Houston location exterior"
     },
     {
-      image: "https://cdn.builder.io/api/v1/image/assets/TEMP/1adb9e3c9f6168b14f5ea1d729c3499a4f6d130d?width=1536",
+      image: "/lovable-uploads/afe0421d-1349-4076-892a-64240165835a.png",
       address: "9645-A Barker Cypress Rd, Cypress, TX",
       hours: "Mon–Fri: 9am–5pm",
       phone: "(832) 678-4560",
