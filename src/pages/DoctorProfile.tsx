@@ -407,10 +407,6 @@ const DoctorProfile = () => {
                 you with personalized, comprehensive eye care.
               </Body>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <EnhancedButton variant="accent" size="lg">
-                  <Calendar className="w-5 h-5 mr-2" />
-                  Book Online Now
-                </EnhancedButton>
                 <EnhancedButton variant="secondary" size="lg">
                   <Phone className="w-5 h-5 mr-2" />
                   Call (281) 890-1784
