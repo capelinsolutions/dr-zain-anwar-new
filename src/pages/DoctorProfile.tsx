@@ -139,10 +139,12 @@ const DoctorProfile = () => {
                 </Body>
 
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <EnhancedButton variant="secondary" size="lg">
-                    <Phone className="w-5 h-5 mr-2" />
-                    Call (281) 890-1784
-                  </EnhancedButton>
+                  <a href="tel:+12818901784">
+                    <EnhancedButton variant="secondary" size="lg">
+                      <Phone className="w-5 h-5 mr-2" />
+                      Call (281) 890-1784
+                    </EnhancedButton>
+                  </a>
                 </div>
               </div>
             </div>
@@ -407,10 +409,12 @@ const DoctorProfile = () => {
                 you with personalized, comprehensive eye care.
               </Body>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <EnhancedButton variant="secondary" size="lg">
-                  <Phone className="w-5 h-5 mr-2" />
-                  Call (281) 890-1784
-                </EnhancedButton>
+                <a href="tel:+12818901784">
+                  <EnhancedButton variant="secondary" size="lg">
+                    <Phone className="w-5 h-5 mr-2" />
+                    Call (281) 890-1784
+                  </EnhancedButton>
+                </a>
               </div>
             </CardContent>
           </Card>
