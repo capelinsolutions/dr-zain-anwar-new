@@ -71,9 +71,11 @@ const ServicesOverview = () => {
               <EnhancedButton variant="primary" size="lg">
                 Schedule Consultation
               </EnhancedButton>
-              <EnhancedButton variant="accent" size="lg">
-                Call (281) 890-1784
-              </EnhancedButton>
+              <a href="tel:+12818901784">
+                <EnhancedButton variant="accent" size="lg">
+                  Call (281) 890-1784
+                </EnhancedButton>
+              </a>
             </div>
           </div>
         </Section>
@@ -220,9 +222,11 @@ const ServicesOverview = () => {
               <EnhancedButton variant="primary" size="xl">
                 Schedule Your Appointment
               </EnhancedButton>
-              <EnhancedButton variant="accent" size="xl">
-                Call (281) 890-1784
-              </EnhancedButton>
+              <a href="tel:+12818901784">
+                <EnhancedButton variant="accent" size="xl">
+                  Call (281) 890-1784
+                </EnhancedButton>
+              </a>
             </div>
             <Body className="text-black text-sm">
               Same-day appointments available • Most insurance accepted • Bilingual staff

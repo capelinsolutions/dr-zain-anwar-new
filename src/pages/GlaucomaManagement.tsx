@@ -31,9 +31,11 @@ const GlaucomaManagement = () => {
               <EnhancedButton variant="primary" size="lg">
                 Book Eye Exam
               </EnhancedButton>
-              <EnhancedButton variant="accent" size="lg">
-                Call (281) 890-1784
-              </EnhancedButton>
+              <a href="tel:+12818901784">
+                <EnhancedButton variant="accent" size="lg">
+                  Call (281) 890-1784
+                </EnhancedButton>
+              </a>
             </div>
           </div>
         </Section>
@@ -323,9 +325,11 @@ const GlaucomaManagement = () => {
               <EnhancedButton variant="primary" size="xl">
                 Schedule Glaucoma Screening
               </EnhancedButton>
-              <EnhancedButton variant="accent" size="xl">
-                Call (281) 890-1784
-              </EnhancedButton>
+              <a href="tel:+12818901784">
+                <EnhancedButton variant="accent" size="xl">
+                  Call (281) 890-1784
+                </EnhancedButton>
+              </a>
             </div>
             <Body className="text-black text-sm">
               Early detection saves sight • Most insurance accepted • Bilingual care available

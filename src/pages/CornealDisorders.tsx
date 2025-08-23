@@ -31,9 +31,11 @@ const CornealDisorders = () => {
               <EnhancedButton variant="primary" size="lg">
                 Schedule Corneal Evaluation
               </EnhancedButton>
-              <EnhancedButton variant="accent" size="lg">
-                Call (281) 890-1784
-              </EnhancedButton>
+              <a href="tel:+12818901784">
+                <EnhancedButton variant="accent" size="lg">
+                  Call (281) 890-1784
+                </EnhancedButton>
+              </a>
             </div>
           </div>
         </Section>
@@ -323,9 +325,11 @@ const CornealDisorders = () => {
                   <Body className="text-black text-sm">Eye injury or trauma</Body>
                 </li>
               </ul>
-              <EnhancedButton variant="accent" size="md" fullWidth>
-                Emergency: (281) 890-1784
-              </EnhancedButton>
+              <a href="tel:+12818901784">
+                <EnhancedButton variant="accent" size="md" fullWidth>
+                  Emergency: (281) 890-1784
+                </EnhancedButton>
+              </a>
             </div>
             <div className="space-y-6">
               <H2 className="text-[#1A1A1A]">
@@ -391,9 +395,11 @@ const CornealDisorders = () => {
               <EnhancedButton variant="primary" size="xl">
                 Schedule Corneal Evaluation
               </EnhancedButton>
-              <EnhancedButton variant="accent" size="xl">
-                Call (281) 890-1784
-              </EnhancedButton>
+              <a href="tel:+12818901784">
+                <EnhancedButton variant="accent" size="xl">
+                  Call (281) 890-1784
+                </EnhancedButton>
+              </a>
             </div>
             <Body className="text-black text-sm">
               Expert corneal care • Advanced treatments • Emergency services available

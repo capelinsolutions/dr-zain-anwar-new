@@ -31,9 +31,11 @@ const RetinaTreatment = () => {
               <EnhancedButton variant="primary" size="lg">
                 Schedule Retina Consultation
               </EnhancedButton>
-              <EnhancedButton variant="accent" size="lg">
-                Call (281) 890-1784
-              </EnhancedButton>
+              <a href="tel:+12818901784">
+                <EnhancedButton variant="accent" size="lg">
+                  Call (281) 890-1784
+                </EnhancedButton>
+              </a>
             </div>
           </div>
         </Section>
@@ -379,9 +381,11 @@ const RetinaTreatment = () => {
               <EnhancedButton variant="primary" size="xl">
                 Schedule Retinal Consultation
               </EnhancedButton>
-              <EnhancedButton variant="accent" size="xl">
-                Call (281) 890-1784
-              </EnhancedButton>
+               <a href="tel:+12818901784">
+                 <EnhancedButton variant="accent" size="xl">
+                   Call (281) 890-1784
+                 </EnhancedButton>
+               </a>
             </div>
             <Body className="text-black text-sm">
               Specialized retinal care • Most insurance accepted • Emergency appointments available

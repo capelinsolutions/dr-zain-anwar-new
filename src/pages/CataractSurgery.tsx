@@ -35,9 +35,11 @@ const CataractSurgery = () => {
               <EnhancedButton variant="primary" size="lg">
                 Schedule Consultation
               </EnhancedButton>
-              <EnhancedButton variant="accent" size="lg">
-                Call (281) 890-1784
-              </EnhancedButton>
+              <a href="tel:+12818901784">
+                <EnhancedButton variant="accent" size="lg">
+                  Call (281) 890-1784
+                </EnhancedButton>
+              </a>
             </div>
           </div>
         </Section>
@@ -258,9 +260,11 @@ const CataractSurgery = () => {
               <EnhancedButton variant="primary" size="xl">
                 Schedule Your Consultation
               </EnhancedButton>
-              <EnhancedButton variant="accent" size="xl">
-                Call (281) 890-1784
-              </EnhancedButton>
+              <a href="tel:+12818901784">
+                <EnhancedButton variant="accent" size="xl">
+                  Call (281) 890-1784
+                </EnhancedButton>
+              </a>
             </div>
             <Body className="text-black text-sm">
               Most insurance plans accepted • Two convenient locations • Bilingual staff
