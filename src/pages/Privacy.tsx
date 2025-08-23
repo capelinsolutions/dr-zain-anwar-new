@@ -46,7 +46,6 @@ const Privacy = () => {
                 <H2 className="text-black mb-4">Contact Us</H2>
                 <Body className="text-black">
                   If you have questions about this privacy policy, please contact us at (281) 890-1784 
-                  or via email at info@loremipsum.com.
                 </Body>
               </div>
             </div>
