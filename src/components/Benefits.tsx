@@ -48,9 +48,11 @@ const Benefits = () => {
         </div>
         
         <div className="pt-8">
-          <EnhancedButton variant="secondary" size="lg">
-            ✓ Contact Us to Check Insurance →
-          </EnhancedButton>
+          <a href="tel:(281) 890-1784">
+            <EnhancedButton variant="secondary" size="lg">
+              ✓ Contact Us to Check Insurance →
+            </EnhancedButton>
+          </a>
         </div>
       </div>
     </Section>
