@@ -9,8 +9,7 @@ const Footer = () => {
   const socialLinks = [
     { src: "https://cdn.builder.io/api/v1/image/assets/TEMP/cbae5632c3ab5e1526e5c8c8cbfdf48c74451454?width=152", alt: "Facebook", href: "https://www.healthgrades.com/physician/dr-zane-anwar-y9psbcz" },
     { src: "https://cdn.builder.io/api/v1/image/assets/TEMP/4c5c31fda78c45b7cf842a0fae5b5ceae1d99e45?width=152", alt: "Twitter", href: "" },
-    { src: "https://cdn.builder.io/api/v1/image/assets/TEMP/9a0127d0c810293a73d0cc508488c738800b34a4?width=132", alt: "Instagram", href: "https://www.facebook.com/zaneanwarmd" },
-    { src: "https://cdn.builder.io/api/v1/image/assets/TEMP/50ae6330d94ddd135c2d6c1ab3f099b0f26926cf?width=132", alt: "LinkedIn", href: "https://www.instagram.com/zaneanwarmd/" }
+    { src: "https://cdn.builder.io/api/v1/image/assets/TEMP/9a0127d0c810293a73d0cc508488c738800b34a4?width=132", alt: "Instagram", href: "https://www.facebook.com/zaneanwarmd" }
   ];
 
   return (
