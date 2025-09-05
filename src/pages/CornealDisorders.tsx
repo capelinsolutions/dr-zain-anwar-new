@@ -166,7 +166,7 @@ const CornealDisorders = () => {
                 <ul className="space-y-2">
                   <li className="flex items-start space-x-2">
                     <span className="text-[#FFB703] font-bold">•</span>
-                    <Body className="text-black text-sm">Genetic counseling and testing</Body>
+                    <Body className="text-black text-sm">Diagnosis and monitoring</Body>
                   </li>
                   <li className="flex items-start space-x-2">
                     <span className="text-[#FFB703] font-bold">•</span>
@@ -174,11 +174,11 @@ const CornealDisorders = () => {
                   </li>
                   <li className="flex items-start space-x-2">
                     <span className="text-[#FFB703] font-bold">•</span>
-                    <Body className="text-black text-sm">Phototherapeutic keratectomy (PTK)</Body>
+                    <Body className="text-black text-sm">Superficial keratectomy with amniotic membrane</Body>
                   </li>
                   <li className="flex items-start space-x-2">
                     <span className="text-[#FFB703] font-bold">•</span>
-                    <Body className="text-black text-sm">Corneal transplantation</Body>
+                    <Body className="text-black text-sm">Referral for corneal transplantation when indicated</Body>
                   </li>
                 </ul>
               </div>
