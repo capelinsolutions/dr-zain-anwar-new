@@ -114,19 +114,19 @@ const CornealDisorders = () => {
                 <ul className="space-y-2">
                   <li className="flex items-start space-x-2">
                     <span className="text-[#FFB703] font-bold">•</span>
+                    <Body className="text-black text-sm">Diagnosis of condition</Body>
+                  </li>
+                  <li className="flex items-start space-x-2">
+                    <span className="text-[#FFB703] font-bold">•</span>
                     <Body className="text-black text-sm">Specialty contact lens fitting</Body>
                   </li>
                   <li className="flex items-start space-x-2">
                     <span className="text-[#FFB703] font-bold">•</span>
-                    <Body className="text-black text-sm">Corneal cross-linking treatment</Body>
+                    <Body className="text-black text-sm">Removal corneal cross-linking and Intacs</Body>
                   </li>
                   <li className="flex items-start space-x-2">
                     <span className="text-[#FFB703] font-bold">•</span>
-                    <Body className="text-black text-sm">Intacs corneal inserts</Body>
-                  </li>
-                  <li className="flex items-start space-x-2">
-                    <span className="text-[#FFB703] font-bold">•</span>
-                    <Body className="text-black text-sm">Corneal transplantation when needed</Body>
+                    <Body className="text-black text-sm">Add Referral for corneal crosslinking and transplantation when indicated</Body>
                   </li>
                 </ul>
               </div>
