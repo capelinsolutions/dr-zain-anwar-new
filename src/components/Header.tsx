@@ -37,15 +37,21 @@ const Header = () => {
 
   const navItems = [
     { href: '#home', label: 'Home' },
-    { href: '#about', label: 'About' },
+    { href: 'https://www.zaneanwarmd.com/doctor-profile', label: 'About', external: true },
     { href: '#services', label: 'Services' },
     { href: '#locations', label: 'Locations' },
     { href: '#faq', label: 'FAQ' },
     { href: '#contact', label: 'Contact' }
   ];
 
-  const handleNavClick = (href: string) => {
+  const handleNavClick = (href: string, external?: boolean) => {
     setIsMobileMenuOpen(false);
+    
+    // Handle external links
+    if (external) {
+      window.open(href, '_blank', 'noopener,noreferrer');
+      return;
+    }
     
     // If we're not on the home page, navigate to home first
     if (window.location.pathname !== '/') {
@@ -95,7 +101,7 @@ const Header = () => {
                 href={item.href}
                 onClick={(e) => {
                   e.preventDefault();
-                  handleNavClick(item.href);
+                  handleNavClick(item.href, (item as any).external);
                 }}
                 className="text-lg font-bold uppercase text-black hover:text-[#0052CC] transition-all duration-300 relative group focus:outline-none focus:text-[#0052CC] focus:ring-2 focus:ring-[#0052CC] focus:ring-offset-2 rounded px-2 py-1"
                 aria-label={`Navigate to ${item.label} section`}
@@ -138,7 +144,7 @@ const Header = () => {
                   href={item.href}
                   onClick={(e) => {
                     e.preventDefault();
-                    handleNavClick(item.href);
+                    handleNavClick(item.href, (item as any).external);
                   }}
                   className="block text-lg font-bold uppercase text-black hover:text-[#0052CC] transition-all duration-300 hover:translate-x-2 focus:outline-none focus:text-[#0052CC] focus:ring-2 focus:ring-[#0052CC] focus:ring-offset-2 rounded px-2 py-2"
                   aria-label={`Navigate to ${item.label} section`}

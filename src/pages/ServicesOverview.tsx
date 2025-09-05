@@ -188,23 +188,39 @@ const ServicesOverview = () => {
               We accept most major insurance plans and offer flexible payment options to make 
               quality eye care accessible to everyone.
             </Body>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
               <div className="text-center">
                 <Body className="text-black font-bold">Medicare</Body>
               </div>
               <div className="text-center">
-                <Body className="text-black font-bold">Medicaid</Body>
+                <Body className="text-black font-bold">BCBS</Body>
               </div>
               <div className="text-center">
-                <Body className="text-black font-bold">VSP</Body>
+                <Body className="text-black font-bold">UHC</Body>
               </div>
               <div className="text-center">
-                <Body className="text-black font-bold">EyeMed</Body>
+                <Body className="text-black font-bold">Medicare C</Body>
+              </div>
+              <div className="text-center">
+                <Body className="text-black font-bold">Aetna</Body>
+              </div>
+              <div className="text-center">
+                <Body className="text-black font-bold">Cigna</Body>
               </div>
             </div>
-            <EnhancedButton variant="secondary" size="md">
-              Check Your Insurance Coverage
-            </EnhancedButton>
+            <Body className="text-black text-sm italic max-w-2xl mx-auto">
+              Please check with our office to verify as coverage varies for each insurance provider
+            </Body>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <EnhancedButton variant="secondary" size="md">
+                Check Your Insurance Coverage
+              </EnhancedButton>
+              <a href="tel:+12818901784">
+                <EnhancedButton variant="accent" size="md">
+                  Call (281) 890-1784
+                </EnhancedButton>
+              </a>
+            </div>
           </div>
         </Section>
 
