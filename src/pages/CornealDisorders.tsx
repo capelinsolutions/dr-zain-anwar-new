@@ -389,9 +389,6 @@ const CornealDisorders = () => {
               restore your corneal health and improve your sight.
             </Body>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <EnhancedButton variant="primary" size="xl">
-                Schedule Corneal Evaluation
-              </EnhancedButton>
               <a href="tel:+12818901784">
                 <EnhancedButton variant="accent" size="xl">
                   Call (281) 890-1784
