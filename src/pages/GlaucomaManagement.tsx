@@ -28,9 +28,6 @@ const GlaucomaManagement = () => {
               Comprehensive glaucoma care to protect your vision and prevent irreversible vision loss
             </BodyLarge>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <EnhancedButton variant="primary" size="lg">
-                Book Eye Exam
-              </EnhancedButton>
               <a href="tel:+12818901784">
                 <EnhancedButton variant="accent" size="lg">
                   Call (281) 890-1784
@@ -56,9 +53,6 @@ const GlaucomaManagement = () => {
                 Early detection and proper management are crucial. Dr. Zane Anwar uses advanced diagnostic technology 
                 to detect glaucoma in its earliest stages when treatment is most effective at preserving your vision.
               </Body>
-              <EnhancedButton variant="secondary" size="md">
-                Learn About Risk Factors
-              </EnhancedButton>
             </div>
             <div className="bg-white rounded-xl p-8 shadow-lg">
               <H3 className="text-[#1A1A1A] mb-6">
@@ -322,9 +316,6 @@ const GlaucomaManagement = () => {
               your sight for years to come. Schedule your comprehensive glaucoma screening today.
             </Body>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <EnhancedButton variant="primary" size="xl">
-                Schedule Glaucoma Screening
-              </EnhancedButton>
               <a href="tel:+12818901784">
                 <EnhancedButton variant="accent" size="xl">
                   Call (281) 890-1784
