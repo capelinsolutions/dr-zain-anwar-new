@@ -211,10 +211,7 @@ const ServicesOverview = () => {
             <Body className="text-black text-sm italic max-w-2xl mx-auto">
               Please check with our office to verify as coverage varies for each insurance provider
             </Body>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <EnhancedButton variant="secondary" size="md">
-                Check Your Insurance Coverage
-              </EnhancedButton>
+            <div className="flex justify-center">
               <a href="tel:+12818901784">
                 <EnhancedButton variant="accent" size="md">
                   Call (281) 890-1784
