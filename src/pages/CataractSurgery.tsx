@@ -184,7 +184,7 @@ const CataractSurgery = () => {
                   Extended depth of focus IOLs
                 </H3>
                 <Body className="text-black mb-4">
-                  
+                  Provide clear distance vision with good intermediate vision for computer work and daily activities.
                 </Body>
                 <ul className="space-y-2">
                   <li className="flex items-start space-x-2">
