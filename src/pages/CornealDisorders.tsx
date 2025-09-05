@@ -28,9 +28,6 @@ const CornealDisorders = () => {
               Expert care for corneal diseases, injuries, and vision problems affecting the eye's front surface
             </BodyLarge>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <EnhancedButton variant="primary" size="lg">
-                Schedule Corneal Evaluation
-              </EnhancedButton>
               <a href="tel:+12818901784">
                 <EnhancedButton variant="accent" size="lg">
                   Call (281) 890-1784
