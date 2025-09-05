@@ -112,13 +112,13 @@ const CataractSurgery = () => {
                   Quick & Painless
                 </H3>
                 <Body className="text-black">
-                  Most procedures take 15-20 minutes with minimal discomfort. You'll be amazed at how 
+                  Most procedures take 10 minutes with minimal discomfort. You'll be amazed at how 
                   quick and easy the process is.
                 </Body>
               </div>
               <div className="bg-gray-50 rounded-xl p-8 text-center">
                 <H3 className="text-[#1A1A1A] mb-4">
-                  Same-Day Surgery
+                  Outpatient Surgery
                 </H3>
                 <Body className="text-black">
                   Our outpatient procedure means you go home the same day with improved vision that 
@@ -157,6 +157,11 @@ const CataractSurgery = () => {
                     <span className="text-[#FFB703] font-bold">✓</span>
                     <Body className="text-black text-sm">Reduced need for reading glasses</Body>
                   </li>
+                  <li className="flex items-start space-x-2">
+                    <span className="text-[#FFB703] font-bold">-</span>
+                    <Body className="text-black text-sm">Mild increase in halos at night</Body>
+                  </li>                  
+                  
                 </ul>
               </div>
               <div className="bg-white rounded-xl p-8 shadow-lg">
@@ -175,6 +180,28 @@ const CataractSurgery = () => {
                     <span className="text-[#FFB703] font-bold">✓</span>
                     <Body className="text-black text-sm">Sharper, clearer distance vision</Body>
                   </li>
+                </ul>
+              </div>
+              <div className="bg-white rounded-xl p-8 shadow-lg">
+                <H3 className="text-[#1A1A1A] mb-4">
+                  Extended depth of focus IOLs
+                </H3>
+                <Body className="text-black mb-4">
+                  
+                </Body>
+                <ul className="space-y-2">
+                  <li className="flex items-start space-x-2">
+                    <span className="text-[#FFB703] font-bold">✓</span>
+                    <Body className="text-black text-sm">Improved distance and intermediate vision</Body>
+                  </li>
+                  <li className="flex items-start space-x-2">
+                    <span className="text-[#FFB703] font-bold">✓</span>
+                    <Body className="text-black text-sm">Minimal risk of halo and glare</Body>
+                  </li>
+                  <li className="flex items-start space-x-2">
+                    <span className="text-[#FFB703] font-bold">-</span>
+                    <Body className="text-black text-sm">Need for correction with reading</Body>
+                  </li>                  
                 </ul>
               </div>
             </div>
@@ -223,7 +250,7 @@ const CataractSurgery = () => {
               <ul className="space-y-4">
                 <li className="flex items-start space-x-3">
                   <span className="text-[#FFB703] font-bold">✓</span>
-                  <Body className="text-black">Over 2,000 successful cataract surgeries</Body>
+                  <Body className="text-black">Over 3,000 successful cataract surgeries</Body>
                 </li>
                 <li className="flex items-start space-x-3">
                   <span className="text-[#FFB703] font-bold">✓</span>
@@ -257,9 +284,6 @@ const CataractSurgery = () => {
               discover how cataract surgery can restore your crystal-clear vision.
             </Body>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <EnhancedButton variant="primary" size="xl">
-                Schedule Your Consultation
-              </EnhancedButton>
               <a href="tel:+12818901784">
                 <EnhancedButton variant="accent" size="xl">
                   Call (281) 890-1784
