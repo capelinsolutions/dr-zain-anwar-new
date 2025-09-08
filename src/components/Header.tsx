@@ -37,7 +37,7 @@ const Header = () => {
 
   const navItems = [
     { href: '#home', label: 'Home' },
-    { href: 'https://www.zaneanwarmd.com/doctor-profile', label: 'About', external: true },
+    { href: '/doctor-profile', label: 'About' },
     { href: '#services', label: 'Services' },
     { href: '#locations', label: 'Locations' },
     { href: '#faq', label: 'FAQ' },
@@ -50,6 +50,12 @@ const Header = () => {
     // Handle external links
     if (external) {
       window.open(href, '_blank', 'noopener,noreferrer');
+      return;
+    }
+    
+    // Handle route navigation (e.g., /doctor-profile)
+    if (href.startsWith('/') && !href.startsWith('/#')) {
+      window.location.href = href;
       return;
     }
     
