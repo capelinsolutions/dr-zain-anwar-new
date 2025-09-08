@@ -28,9 +28,11 @@ const RoutineEyeExams = () => {
               Preventive eye care to detect problems early and maintain optimal vision throughout your life
             </BodyLarge>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <EnhancedButton variant="primary" size="lg">
-                Schedule Your Eye Exam
-              </EnhancedButton>
+              <a href="https://tajjam.com/services/68bd668c6ae4830eb9cccae7" target="_blank" rel="noopener noreferrer">
+                <EnhancedButton variant="primary" size="lg">
+                  Schedule Your Eye Exam
+                </EnhancedButton>
+              </a>
               <a href="tel:+12818901784">
                 <EnhancedButton variant="accent" size="lg">
                   Call (281) 890-1784
@@ -452,9 +454,11 @@ const RoutineEyeExams = () => {
               Schedule your comprehensive eye exam today to protect your vision for years to come.
             </Body>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <EnhancedButton variant="primary" size="xl">
-                Schedule Your Eye Exam
-              </EnhancedButton>
+              <a href="https://tajjam.com/services/68bd668c6ae4830eb9cccae7" target="_blank" rel="noopener noreferrer">
+                <EnhancedButton variant="primary" size="xl">
+                  Schedule Your Eye Exam
+                </EnhancedButton>
+              </a>
               <a href="tel:+12818901784">
                 <EnhancedButton variant="accent" size="xl">
                   Call (281) 890-1784
