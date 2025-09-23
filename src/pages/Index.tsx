@@ -5,6 +5,7 @@ import Hero from '../components/Hero';
 import ContactForm from '../components/ContactForm';
 import About from '../components/About';
 import Services from '../components/Services';
+import LogoCarousel from '../components/LogoCarousel';
 import Testimonials from '../components/Testimonials';
 import Benefits from '../components/Benefits';
 import FAQ from '../components/FAQ';
@@ -27,6 +28,7 @@ const Index = () => {
         {/* <ContactForm /> */}
         <About />
         <Services />
+        <LogoCarousel />
         <Testimonials />
         <Benefits />
         <FAQ />
