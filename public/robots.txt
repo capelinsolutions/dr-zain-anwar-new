@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://drzaneanwar.com/sitemap.xml
+Sitemap: https://www.zaneanwarmd.com/sitemap.xml
