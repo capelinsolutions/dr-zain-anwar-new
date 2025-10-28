@@ -64,7 +64,7 @@ const Hero = () => {
               <p className="text-xl font-semibold text-[#1A1A1A] mb-6" role="heading" aria-level={2}>
                 Ready to Improve Your Vision?
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 md:gap-6 justify-center items-center">
+              <div className="flex flex-col gap-3 justify-center items-center">
                 <a href="tel:+12818901784">
                   <EnhancedButton 
                     variant="accent" 
@@ -76,6 +76,9 @@ const Hero = () => {
                     Call: (281) 890-1784
                   </EnhancedButton>
                 </a>
+                <p className="text-[#0052CC] font-semibold text-lg">
+                  Monthly Saturday appointments available!
+                </p>
               </div>
             </div>
           </AnimatedElement>
