@@ -172,10 +172,7 @@ const DoctorProfile = () => {
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <Body>
-                    Dr. Zane Anwar earned his medical degree from a prestigious institution and completed his ophthalmology 
-                    residency with distinction. He is committed to providing the highest quality eye care using the latest 
-                    technologies and treatment methods. Dr. Anwar believes in personalized patient care and takes time to 
-                    ensure each patient understands their condition and treatment options.
+                    Dr. Zane Anwar earned his undergraduate and medical degrees with the highest academic distinctions. He completed his residency and fellowship at prestigious institutions. He is committed to providing the highest quality eye care using the latest, safest technologies and treatment methods. Dr. Anwar believes in personalized patient care and takes time to ensure each patient understands their condition and treatment options.
                   </Body>
                   <Body>
                     His areas of expertise include advanced cataract surgery with premium lens implants, comprehensive 
