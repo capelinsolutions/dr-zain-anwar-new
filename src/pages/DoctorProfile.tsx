@@ -185,13 +185,13 @@ const DoctorProfile = () => {
                 </Card>
                 <Card className="text-center">
                   <CardContent className="pt-6">
-                    <div className="text-3xl font-bold text-[#0052CC] mb-2">2,000+</div>
+                    <div className="text-3xl font-bold text-[#0052CC] mb-2">6,000+</div>
                     <Body>Successful Surgeries</Body>
                   </CardContent>
                 </Card>
                 <Card className="text-center">
                   <CardContent className="pt-6">
-                    <div className="text-3xl font-bold text-[#0052CC] mb-2">5,000+</div>
+                    <div className="text-3xl font-bold text-[#0052CC] mb-2">50,000+</div>
                     <Body>Patients Treated</Body>
                   </CardContent>
                 </Card>
