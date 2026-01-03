@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Star, MapPin, Phone, Clock, Award, GraduationCap, Users, Calendar } from 'lucide-react';
 import { H1, H2, H3, Body, BodyLarge } from '../components/ui/typography';
@@ -9,10 +8,8 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '../components/ui/tabs';
 import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card';
-
 const DoctorProfile = () => {
   const [selectedLocation, setSelectedLocation] = useState('houston');
-
   const locations = {
     houston: {
       address: "13333 Dotson Rd, Suite 200, Houston, TX 77041",
@@ -25,66 +22,39 @@ const DoctorProfile = () => {
       hours: "Mon-Fri: 9:00 AM - 5:00 PM"
     }
   };
-
-  const reviews = [
-    {
-      name: "Maria C.",
-      location: "Cypress, TX",
-      rating: 5,
-      date: "2 weeks ago",
-      review: "Dr. Anwar changed my life after cataract surgery! The procedure was quick and painless. His bilingual staff made me feel comfortable throughout the entire process. Highly recommend!"
-    },
-    {
-      name: "James R.",
-      location: "Houston, TX",
-      rating: 5,
-      date: "1 month ago",
-      review: "Finally found a glaucoma doctor who listens. Dr. Anwar explained everything clearly and my eye pressure is now under control. Professional and caring team."
-    },
-    {
-      name: "Ana G.",
-      location: "Jersey Village, TX",
-      rating: 5,
-      date: "3 weeks ago",
-      review: "Thorough, caring, and bilingual – amazing team. Dr. Anwar detected my retina issue early. The on-site diagnostics made everything convenient."
-    },
-    {
-      name: "Robert M.",
-      location: "Spring, TX",
-      rating: 5,
-      date: "1 week ago",
-      review: "Excellent experience with routine eye exam. Staff was professional and Dr. Anwar was very knowledgeable. Will definitely return for future care."
-    }
-  ];
-
-  const services = [
-    "Cataract Surgery",
-    "Glaucoma Management", 
-    "Retina Disease Treatment",
-    "Corneal Disorders",
-    "Dry Eye Treatment",
-    "Routine Eye Exams",
-    "Diabetic Eye Exams",
-    "Macular Degeneration Treatment"
-  ];
-
-  const insurances = [
-    "Aetna", "Blue Cross Blue Shield", "Cigna", "UnitedHealthcare", 
-    "Medicare", "Medicaid", "Humana", "VSP Vision Care",
-    "EyeMed", "Davis Vision", "Superior Vision", "Avesis"
-  ];
-
+  const reviews = [{
+    name: "Maria C.",
+    location: "Cypress, TX",
+    rating: 5,
+    date: "2 weeks ago",
+    review: "Dr. Anwar changed my life after cataract surgery! The procedure was quick and painless. His bilingual staff made me feel comfortable throughout the entire process. Highly recommend!"
+  }, {
+    name: "James R.",
+    location: "Houston, TX",
+    rating: 5,
+    date: "1 month ago",
+    review: "Finally found a glaucoma doctor who listens. Dr. Anwar explained everything clearly and my eye pressure is now under control. Professional and caring team."
+  }, {
+    name: "Ana G.",
+    location: "Jersey Village, TX",
+    rating: 5,
+    date: "3 weeks ago",
+    review: "Thorough, caring, and bilingual – amazing team. Dr. Anwar detected my retina issue early. The on-site diagnostics made everything convenient."
+  }, {
+    name: "Robert M.",
+    location: "Spring, TX",
+    rating: 5,
+    date: "1 week ago",
+    review: "Excellent experience with routine eye exam. Staff was professional and Dr. Anwar was very knowledgeable. Will definitely return for future care."
+  }];
+  const services = ["Cataract Surgery", "Glaucoma Management", "Retina Disease Treatment", "Corneal Disorders", "Dry Eye Treatment", "Routine Eye Exams", "Diabetic Eye Exams", "Macular Degeneration Treatment"];
+  const insurances = ["Aetna", "Blue Cross Blue Shield", "Cigna", "UnitedHealthcare", "Medicare", "Medicaid", "Humana", "VSP Vision Care", "EyeMed", "Davis Vision", "Superior Vision", "Avesis"];
   const renderStars = (rating: number) => {
-    return Array.from({ length: 5 }, (_, i) => (
-      <Star
-        key={i}
-        className={`w-4 h-4 ${i < rating ? 'fill-[#F8A401] text-[#F8A401]' : 'text-gray-300'}`}
-      />
-    ));
+    return Array.from({
+      length: 5
+    }, (_, i) => <Star key={i} className={`w-4 h-4 ${i < rating ? 'fill-[#F8A401] text-[#F8A401]' : 'text-gray-300'}`} />);
   };
-
-  return (
-    <div className="min-h-screen bg-white">
+  return <div className="min-h-screen bg-white">
       <Header />
       
       {/* Hero Section */}
@@ -94,11 +64,7 @@ const DoctorProfile = () => {
             {/* Doctor Image */}
             <div className="lg:col-span-1">
               <div className="relative">
-                <img
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/9a1ad05500e6f15b39a6066c4b3ebece9e7d3ab0?width=1230"
-                  alt="Dr. Zane Anwar"
-                  className="w-full h-[400px] lg:h-[500px] object-cover rounded-2xl shadow-lg"
-                />
+                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/9a1ad05500e6f15b39a6066c4b3ebece9e7d3ab0?width=1230" alt="Dr. Zane Anwar" className="w-full h-[400px] lg:h-[500px] object-cover rounded-2xl shadow-lg" />
                 <div className="absolute top-4 right-4 bg-white rounded-lg px-3 py-2 shadow-md">
                   <div className="flex items-center gap-2">
                     <div className="flex gap-1">
@@ -123,7 +89,7 @@ const DoctorProfile = () => {
                   </div>
                   <div className="flex items-center gap-2">
                     <Users className="w-5 h-5 text-[#F8A401]" />
-                    <Body className="text-gray-700">3,000+ Surgeries</Body>
+                    <Body className="text-gray-700">6,000+ Surgeries</Body>
                   </div>
                   <div className="flex items-center gap-2">
                     <GraduationCap className="w-5 h-5 text-[#F8A401]" />
@@ -131,12 +97,7 @@ const DoctorProfile = () => {
                   </div>
                 </div>
 
-                <Body className="text-gray-700 mb-6 leading-relaxed">
-                  Zane Anwar, MD is diplomate of the American Board of Ophthalmology practicing comprehensive medical and surgical ophthalmology. Dr. Anwar earned his bachelor's degree in biomedical engineering at the University of Miami and graduated Summa Cum Laude with a 4.0 GPA. He was inducted into the Tau Beta Pi engineering honor society. Dr. Anwar completed medical school at the University of Miami Miller School of Medicine where he continued his academic achievements and was inducted into the Alpha Omega Alpha medical honor society.
-                  Dr. Anwar completed his residency training at the renowned New York Eye and Ear Infirmary of Mount Sinai where he provided care to the some of the most complex conditions in the greater New York City area. He completed a fellowship in cornea and external diseases at Weill Cornell Medical College/New York Presbyterian and refined his skills in anterior segment surgery, complex dry eye management, refractive surgery, and surgical ocular trauma. He has practiced ophthalmology for approximately 10 years and has performed over 2,000 ophthalmic surgeries including cataract, pterygium surgery, and minimally invasive glaucoma surgery.
-                  During his early career Dr. Anwar was an ophthalmologist for Kaiser Permanente where he performed high volume cataract surgery and refined his medical retina and glaucoma practice. Currently Dr. Anwar is in practice at Houston, TX with 1960 Eye Surgeons.
-                  Dr. Anwar uses the latest treatments and technologies to treat a wide scope of eye conditions including cataract, glaucoma, dry eye, diabetic retinopathy, and macular degeneration. He has served a diverse patient population through his training and career and is fluent in medical Spanish.
-                </Body>
+                <Body className="text-gray-700 mb-6 leading-relaxed">Zane Anwar, MD is diplomate of the American Board of Ophthalmology practicing comprehensive medical and surgical ophthalmology. Dr. Anwar earned his bachelor's degree in biomedical engineering at the University of Miami and graduated Summa Cum Laude with a 4.0 GPA. He was inducted into the Tau Beta Pi engineering honor society. Dr. Anwar completed medical school at the University of Miami Miller School of Medicine where he continued his academic achievements and was inducted into the Alpha Omega Alpha medical honor society. Dr. Anwar completed his residency training at the renowned New York Eye and Ear Infirmary of Mount Sinai where he provided care to the some of the most complex conditions in the greater New York City area. He completed a fellowship in cornea and external diseases at Weill Cornell Medical College/New York Presbyterian and refined his skills in anterior segment surgery, complex dry eye management, refractive surgery, and surgical ocular trauma. He has practiced ophthalmology for approximately 10 years and has performed over 6,000 ophthalmic surgeries including cataract, pterygium surgery, and minimally invasive glaucoma surgery. During his early career Dr. Anwar was an ophthalmologist for Kaiser Permanente where he performed high volume cataract surgery and refined his medical retina and glaucoma practice. Currently Dr. Anwar is in practice at Houston, TX with 1960 Eye Surgeons. Dr. Anwar uses the latest treatments and technologies to treat a wide scope of eye conditions including cataract, glaucoma, dry eye, diabetic retinopathy, and macular degeneration. He has served a diverse patient population through his training and career and is fluent in medical Spanish.</Body>
 
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a href="tel:+12818901784">
@@ -276,12 +237,10 @@ const DoctorProfile = () => {
                 </CardHeader>
                 <CardContent>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    {services.map((service, index) => (
-                      <div key={index} className="flex items-center gap-3 p-3 bg-gray-50 rounded-lg">
+                    {services.map((service, index) => <div key={index} className="flex items-center gap-3 p-3 bg-gray-50 rounded-lg">
                         <div className="w-2 h-2 bg-[#0052CC] rounded-full"></div>
                         <Body>{service}</Body>
-                      </div>
-                    ))}
+                      </div>)}
                   </div>
                 </CardContent>
               </Card>
@@ -297,12 +256,10 @@ const DoctorProfile = () => {
                     We accept most major insurance plans. Please contact our office to verify your specific coverage.
                   </Body>
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-                    {insurances.map((insurance, index) => (
-                      <div key={index} className="flex items-center gap-2 p-2 bg-gray-50 rounded">
+                    {insurances.map((insurance, index) => <div key={index} className="flex items-center gap-2 p-2 bg-gray-50 rounded">
                         <div className="w-2 h-2 bg-[#F8A401] rounded-full"></div>
                         <Body className="text-sm">{insurance}</Body>
-                      </div>
-                    ))}
+                      </div>)}
                   </div>
                   <div className="mt-6 p-4 bg-blue-50 rounded-lg">
                     <Body className="font-semibold text-[#0052CC] mb-2">Insurance Verification</Body>
@@ -319,8 +276,7 @@ const DoctorProfile = () => {
 
             <TabsContent value="locations" className="space-y-6">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                {Object.entries(locations).map(([key, location]) => (
-                  <Card key={key}>
+                {Object.entries(locations).map(([key, location]) => <Card key={key}>
                     <CardHeader>
                       <CardTitle className="flex items-center gap-2">
                         <MapPin className="w-5 h-5 text-[#0052CC]" />
@@ -348,8 +304,7 @@ const DoctorProfile = () => {
                         Get Directions
                       </EnhancedButton>
                     </CardContent>
-                  </Card>
-                ))}
+                  </Card>)}
               </div>
             </TabsContent>
 
@@ -369,8 +324,7 @@ const DoctorProfile = () => {
                 </Card>
 
                 <div className="lg:col-span-2 space-y-4">
-                  {reviews.map((review, index) => (
-                    <Card key={index}>
+                  {reviews.map((review, index) => <Card key={index}>
                       <CardContent className="pt-6">
                         <div className="flex justify-between items-start mb-3">
                           <div>
@@ -386,8 +340,7 @@ const DoctorProfile = () => {
                         </div>
                         <Body className="text-gray-700 italic">"{review.review}"</Body>
                       </CardContent>
-                    </Card>
-                  ))}
+                    </Card>)}
                 </div>
               </div>
             </TabsContent>
@@ -419,8 +372,6 @@ const DoctorProfile = () => {
       </Section>
 
       <Footer />
-    </div>
-  );
+    </div>;
 };
-
 export default DoctorProfile;
