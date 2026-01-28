@@ -60,7 +60,7 @@ const LocationCard = ({ image, address, hours, phone, alt }: LocationCardProps) 
         
         <div className="pt-4">
           <a 
-            href="https://share.google/G1TmHqay7aWfPNkm7"
+            href="https://share.google/u4X0lnlAcigdh4p94"
             target="_blank"
             rel="noopener noreferrer"
             className="block"
