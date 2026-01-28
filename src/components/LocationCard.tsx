@@ -59,15 +59,22 @@ const LocationCard = ({ image, address, hours, phone, alt }: LocationCardProps) 
         </div>
         
         <div className="pt-4">
-          <EnhancedButton 
-            variant="secondary" 
-            size="lg" 
-            fullWidth
-            aria-label={`Get directions to ${address}`}
+          <a 
+            href="https://share.google/G1TmHqay7aWfPNkm7"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block"
           >
-            <Navigation className="w-5 h-5 mr-2" aria-hidden="true" />
-            Get Directions
-          </EnhancedButton>
+            <EnhancedButton 
+              variant="secondary" 
+              size="lg" 
+              fullWidth
+              aria-label={`Get directions to ${address}`}
+            >
+              <Navigation className="w-5 h-5 mr-2" aria-hidden="true" />
+              Get Directions
+            </EnhancedButton>
+          </a>
         </div>
       </div>
     </article>
